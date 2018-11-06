@@ -18,3 +18,14 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('governorate', 'GovernorateController');
+Route::resource('post', 'PostsController');
+Route::resource('city', 'CitiesController');
+Route::resource('report', 'ReportController');
+Route::resource('contactus', 'ContactUsController');
+Route::resource('category', 'CategoryController');
+
+
+
+
+//governorate.create'

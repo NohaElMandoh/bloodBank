@@ -16,12 +16,10 @@ class Client extends Model
     {
         return $this->hasMany('App\DonationRequests');
     }
-
     public function article()
     {
         return $this->hasMany('App\Article');
     }
-
     public function report()
     {
         return $this->hasMany('App\Report');
@@ -34,7 +32,6 @@ class Client extends Model
     {
         return $this->belongsToMany('App\Article');
     }
-
     public function contactUs()
     {
         return $this->hasMany('App\ContactUs');

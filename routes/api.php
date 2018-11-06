@@ -25,8 +25,6 @@ Route::get('governorates','MainController@governorate');
     Route::get('settings','MainController@settings');
     Route::get('notification_settings','MainController@notification_settings');
 
-//
-
   // Auth controller
     Route::post('register','AuthController@register');
     Route::post('login','AuthController@login');

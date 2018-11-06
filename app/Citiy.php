@@ -9,7 +9,7 @@ class Citiy extends Model
 
     protected $table = 'cities';
     public $timestamps = true;
-    protected $fillable = array('governorate_id');
+    protected $fillable = array('name','governorate_id');
 
     public function city_client()
     {

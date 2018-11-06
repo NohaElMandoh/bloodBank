@@ -9,7 +9,7 @@ class Article extends Model
 
     protected $table = 'articles';
     public $timestamps = true;
-    protected $fillable = array('client_id', 'category_id');
+    protected $fillable = array('client_id', 'category_id','text','img','publish_date','title');
 
     public function article_type()
     {
